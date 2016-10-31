@@ -1,0 +1,8 @@
+<h1>For Sale</h1>
+<ul>
+  {{#each model as |post|}}
+  <li>{{post.category}} - {{post.date}} - {{post.price}} - {{post.text}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'index'}}Home{{/link-to}}

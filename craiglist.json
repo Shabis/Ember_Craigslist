@@ -1,0 +1,23 @@
+{ "posts": [{
+  "title": "Speckled Pony with rhinestones for eyes",
+  "date": "October 1, 2016",
+  "text": "I don't want to give him up, but my mommy says I can't take it to college with me",
+  "category": "for-sale",
+  "image": "https://aliceatwonderland.files.wordpress.com/2013/09/sparklepony.jpg",
+  "price": "priceless, but I will take $75.00"
+  }, {
+  "title": "1/2 Bedroom, 1 Bath",
+  "date": "October 10, 2016",
+  "text": "Beautiful home for a single person. Must have an interest in clowns. If you don't like over the top, don't bother contacting",
+  "category": "housing",
+  "image": "http://www.insidesocal.com/sgvcrime/files/import/4788-clownhouse-thumb-300x428.jpg",
+  "price": "hugs and childrens laughter"
+  }, {
+  "title": "Strong sturdy man needed with a certain expertise",
+  "date": "October 20, 2016",
+  "text": "I hava a clog that just won't come unclogged. Bring your own...plunger and a hardy appetite. Send me a picture, so I know who to expect at the door.",
+  "category": "job",
+  "image": "https://s-media-cache-ak0.pinimg.com/564x/10/c7/9f/10c79f17cd455d6134cae64a7ece2d6f.jpg",
+  "price": "willing to barter"
+    }]
+}
