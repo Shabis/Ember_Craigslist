@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('jobs');
   this.route('housing');
   this.route('sale');
+  this.route('post', {path: '/post/:post_id'});
 });
 
 export default Router;

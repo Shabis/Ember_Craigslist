@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class= "well" id="postBody">
+        <h1>{{model.title}}</h1>
+        <h3>{{model.text}}</h3>
+        <p>Posted on: {{model.date}}</p>
+        <p>Category: {{model.category}}</p>
+        {{post-detail post=model destroyPost="destroyPost" update="update"}}
+      </div>
+    </div>
+  </div>
+</div>

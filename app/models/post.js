@@ -5,5 +5,6 @@ export default DS.Model.extend({
   date: DS.attr(),
   text: DS.attr(),
   category: DS.attr(),
-  image: DS.attr()
+  image: DS.attr(),
+  price: DS.attr()
 });

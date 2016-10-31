@@ -1,7 +1,8 @@
-<h1>{{post.title}} - {{post.text}} </h1>
+<h1> {{#link-to 'post' post.id}}{{post.title}} - {{post.text}} {{/link-to}} </h1>
 
 <li>{{post.date}}</li>
 
 <p>{{post.text}}</p>
 
-<button {{action 'delete' post}}>Delete Post</button>
+<!-- {{update-post post=post update="update"}}
+<button {{action 'delete' post}}>Delete Post</button> -->

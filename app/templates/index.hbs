@@ -3,20 +3,11 @@
 <p>We hope you find what your looking for.</p>
 
 <ul>
-  {{#each model of |post|}}
-    {{post-tile post=post destroyPost="destroyPost"}}
+  {{#each model as |post|}}
+    <li>{{post-tile post=post}}</li>
   {{/each}}
 </ul>
 
 {{new-post savePost2="savePost3"}}
 
 {{#link-to 'sale'}}See Current Postings{{/link-to}}
-<!-- <div class="jobs">
-  <h2>Jobs</h2>
-</div>
-<div class="sale">
-  <h2>For Sale</h2>
-</div>
-<div class="housing">
-  <h2>Housing</h2>
-</div> -->
